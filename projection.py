@@ -110,13 +110,13 @@ def img2gis(img_path:str,
         row = df.loc[df['PhotoID'] == img_name]
         assert len(row) > 0, 'Error! Image not found in csv file.'
 
-        omega = float(row['Omega'])
-        phi = float(row['Phi'])
-        kappa = float(row['Kappa'])
+        omega = float(row['Omega'].iloc[0])
+        phi = float(row['Phi'].iloc[0])
+        kappa = float(row['Kappa'].iloc[0])
         m = rot_matrix(kappa, omega, phi)
 
         # X and Y used from exif, Z from csv
-        Z0 = float(row['Z'])
+        Z0 = float(row['Z'].iloc[0])
         # X0 = float(row['X'])
         # Y0 = float(row['Y'])
 

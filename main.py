@@ -16,7 +16,7 @@ import shapefile
 import pandas as pd
 import geopandas as gpd
 import shapely
-shapely.speedups.disable()
+# shapely.speedups.disable()
 from shapely.geometry import mapping
 import rasterio
 
