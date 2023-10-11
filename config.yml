@@ -16,11 +16,11 @@ paths:
   # specific options for single/batch processing
   single_cfg:
     # <id,points>, e.g. <1,"[(x1,y1),(x2,y2),...]"> -- one row for each box/shape
-    img_path: "examples/single/DJI_20230706035613_0586.JPG"
+    img_path: "examples/single/DJI_20220712133408_0902.JPG"
 
     # input paths for the two different 
     img2gis:   
-      points_csv: "examples/single/img2gis_test_points.csv" # image pixel coordinates
+      points_csv: "examples/single/DJI_20220712133408_0902.csv" # image pixel coordinates
       # points_csv: "examples/single/img2gis_test_points_oblique.csv" # image pixel coordinates
       out_shp:    "output/img2gis"
     gis2img:
