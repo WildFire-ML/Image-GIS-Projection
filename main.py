@@ -40,7 +40,9 @@ def single_img2gis(cfg):
     # load dsm
     dsm = rasterio.open(dsm_path)
     dsm_arr = dsm.read(1)
-    try: dsm_epsg = int(str(dsm.crs)[5:])
+    try: 
+        dsm_epsg = int(str(dsm.crs)[5:])
+        print(dsm_epsg)
     except: exit("Error: DSM does not seem to have CRS information. Chcek and try again")
     
 
