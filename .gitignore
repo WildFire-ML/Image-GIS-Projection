@@ -1,4 +1,7 @@
-test/
+#redundant or testing local folders
 output/
+test/
+
+# Ignore python and txt files
 iou.py
 exif_tmp.txt
