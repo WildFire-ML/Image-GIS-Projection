@@ -1,4 +1,4 @@
 test/
+output/
 iou.py
 exif_tmp.txt
-output/
