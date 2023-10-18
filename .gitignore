@@ -1,6 +1,6 @@
-#redundant or testing local folders
-output/
-test/
+# #redundant or testing local folders
+# output/
+# test/
 
-# Ignore python and txt files
-exif_tmp.txt
+# # Ignore python and txt files
+# exif_tmp.txt

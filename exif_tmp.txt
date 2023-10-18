@@ -1,0 +1,161 @@
+ExifTool Version Number         : 12.40
+File Name                       : DJI_20220712133408_0902.JPG
+Directory                       : examples/single
+File Size                       : 25 MiB
+File Modification Date/Time     : 2023:10:11 11:30:54-06:00
+File Access Date/Time           : 2023:10:13 14:30:27-06:00
+File Inode Change Date/Time     : 2023:10:11 11:55:45-06:00
+File Permissions                : -rwxrwxrwx
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Little-endian (Intel, II)
+Image Description               : default
+Make                            : DJI
+Camera Model Name               : ZenmuseP1
+Orientation                     : Horizontal (normal)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Software                        : 03.00.01.04
+Modify Date                     : 2022:07:12 13:34:08
+Y Cb Cr Positioning             : Co-sited
+Exposure Time                   : 1/1000
+F Number                        : 5.6
+Exposure Program                : Program AE
+ISO                             : 800
+Sensitivity Type                : Recommended Exposure Index
+Exif Version                    : 0230
+Date/Time Original              : 2022:07:12 13:34:08
+Create Date                     : 2022:07:12 13:34:08
+Components Configuration        : Y, Cb, Cr, -
+Shutter Speed Value             : 1/1000
+Aperture Value                  : 5.6
+Exposure Compensation           : 0
+Max Aperture Value              : 2.8
+Metering Mode                   : Average
+Light Source                    : Fluorescent
+Flash                           : No Flash
+Focal Length                    : 35.0 mm
+Warning                         : [minor] Bad MakerNotes directory
+Warning                         : [minor] Bad format (25698) for MakerNotes entry 0
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 8192
+Exif Image Height               : 5460
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Interoperability Version        : 0100
+File Source                     : Digital Camera
+Scene Type                      : Directly photographed
+Exposure Mode                   : Auto
+White Balance                   : Auto
+Digital Zoom Ratio              : 1
+Focal Length In 35mm Format     : 35 mm
+Scene Capture Type              : Standard
+Gain Control                    : None
+Contrast                        : Normal
+Saturation                      : Normal
+Sharpness                       : Normal
+Device Setting Description      : (Binary data 4 bytes, use -b option to extract)
+Serial Number                   : 3XMDJ22001YGCZ
+Lens Info                       : 35mm f/2.8
+Lens Serial Number              : 00LY114G023P
+GPS Version ID                  : 2.3.0.0
+GPS Latitude Ref                : North
+GPS Latitude                    : 53 deg 18' 3.27"
+GPS Longitude Ref               : West
+GPS Longitude                   : 115 deg 22' 46.55"
+GPS Altitude Ref                : Above Sea Level
+GPS Altitude                    : 1032.216 m
+GPS Status                      : Measurement Active
+GPS Map Datum                   : WGS-84
+XP Comment                      : 0.9.142
+XP Keywords                     : single
+Compression                     : JPEG
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Thumbnail Offset                : 25006
+Thumbnail Length                : 14691
+About                           : DJI Meta Data
+Modify Date                     : 2022:07:12 13:34:08
+Create Date                     : 2022:07:12 13:34:08
+Make                            : DJI
+Camera Model Name               : ZenmuseP1
+Format                          : image/jpg
+Version                         : 1.4
+Gps Status                      : RTK
+Altitude Type                   : RtkAlt
+GPS Latitude                    : 53 deg 18' 3.27" N
+GPS Longitude                   : 115 deg 22' 46.55" W
+Absolute Altitude               : +1032.216
+Relative Altitude               : +99.986
+Gimbal Roll Degree              : +0.00
+Gimbal Yaw Degree               : -90.10
+Gimbal Pitch Degree             : -89.90
+Flight Roll Degree              : +0.10
+Flight Yaw Degree               : -90.00
+Flight Pitch Degree             : +2.90
+Flight X Speed                  : 0.0
+Flight Y Speed                  : -2.0
+Flight Z Speed                  : 0.0
+Cam Reverse                     : 0
+Gimbal Reverse                  : 0
+Self Data                       : 
+Rtk Flag                        : 50
+Rtk Std Lon                     : 0.00918
+Rtk Std Lat                     : 0.01275
+Rtk Std Hgt                     : 0.02085
+Rtk Diff Age                    : 1.20000
+Surveying Mode                  : 1
+UTC At Exposure                 : 2022:07:12 19:34:24.997324
+Shutter Type                    : Mechanical
+Shutter Count                   : 10561
+Camera Serial Number            : 3XMDJ22001YGCZ
+Lens Serial Number              : 00LY114G023P
+Drone Model                     : Matrice 300 RTK
+Drone Serial Number             : 1ZN3J4G001K005
+Version                         : 7.0
+Has Settings                    : False
+Has Crop                        : False
+Already Applied                 : False
+MPF Version                     : 0100
+Number Of Images                : 2
+MP Image Flags                  : Representative image, Dependent parent image
+MP Image Format                 : JPEG
+MP Image Type                   : Baseline MP Primary Image
+MP Image Length                 : 24704639
+MP Image Start                  : 0
+Dependent Image 1 Entry Number  : 0
+Dependent Image 2 Entry Number  : 2
+MP Image Flags                  : Dependent child image
+MP Image Format                 : JPEG
+MP Image Type                   : Large Thumbnail (VGA equivalent)
+MP Image Length                 : 1113173
+MP Image Start                  : 24712831
+Dependent Image 1 Entry Number  : 0
+Dependent Image 2 Entry Number  : 0
+Image UID List                  : (Binary data 66 bytes, use -b option to extract)
+Total Frames                    : 1
+Image Width                     : 8192
+Image Height                    : 5460
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Aperture                        : 5.6
+Image Size                      : 8192x5460
+Megapixels                      : 44.7
+Scale Factor To 35 mm Equivalent: 1.0
+Shutter Speed                   : 1/1000
+Thumbnail Image                 : (Binary data 14691 bytes, use -b option to extract)
+GPS Altitude                    : 1032.2 m Above Sea Level
+GPS Latitude                    : 53 deg 18' 3.27" N
+GPS Longitude                   : 115 deg 22' 46.55" W
+Preview Image                   : (Binary data 1113173 bytes, use -b option to extract)
+Circle Of Confusion             : 0.030 mm
+Field Of View                   : 54.4 deg
+Focal Length                    : 35.0 mm (35 mm equivalent: 35.0 mm)
+GPS Position                    : 53 deg 18' 3.27" N, 115 deg 22' 46.55" W
+Hyperfocal Distance             : 7.28 m
+Light Value                     : 11.9
