@@ -10,19 +10,19 @@ output_path:
 # ------------------------ PATHS -------------------------
 # NOTE: leave blanks where not applicable (e.g. batch_paths during single image projection)
 paths:
-  aligned_cameras_csv_path: "examples/camera_details.csv" # <PhotoID,X,Y,Z,Omega,Phi,Kappa,r11,r12,r13,r21,r22,r23,r31,r32,r33>, e.g. obtained from AgiSoft
-  dsm_path: "examples/rasters/dsm.tif"                      # single dsm applies for all images in the batch, otherwise run script multiple times.
+  aligned_cameras_csv_path: "examples/cameras.csv" # <PhotoID,X,Y,Z,Omega,Phi,Kappa,r11,r12,r13,r21,r22,r23,r31,r32,r33>, e.g. obtained from AgiSoft
+  dsm_path: "examples/rasters/raster.tif"                      # single dsm applies for all images in the batch, otherwise run script multiple times.
                                                    # NOTE: make sure values in DSM correspond to elliopsoidal height, not over the geode
   # specific options for single/batch processing
   single_cfg:
     # <id,points>, e.g. <1,"[(x1,y1),(x2,y2),...]"> -- one row for each box/shape
-    img_path: "examples/single/DJI_20220712133408_0902.JPG"
+    img_path: "examples/single/DJI_20220712132737_0436.JPG"
 
     # input paths for the two different 
     img2gis:   
-      points_csv: "examples/single/DJI_20220712133408_0902.csv" # image pixel coordinates
+      points_csv: "examples/single/test.csv" # image pixel coordinates
       # points_csv: "examples/single/img2gis_test_points_oblique.csv" # image pixel coordinates
-      out_shp:    "output/img2gis"
+      out_shp:    "output/test"
     gis2img:
       points_shp: "examples/single/gis2img_test"            # no extension for shapefile -- UTM coordinates, will be read using geopandas after appending '.shp'
       out_csv: "output/gis2img.csv"
@@ -43,10 +43,10 @@ paths:
 img2gis:
   boundary: 10                   # median of boundary x boundary pixels from DSM is taken
   show_box: false               # when true, each box is shown on the input image
-  coarse_height_increment: 0.5 # starting increment for H in coarse to fine strategy of ray tracing/dsm interception
-  fine_height_increment: 0.0001  # fine increment for H in coarse to fine strategy of ray tracing/dsm interception
+  coarse_height_increment: 0.5  # starting increment for H in coarse to fine strategy of ray tracing/dsm interception
+  fine_height_increment: 0.0005  # fine increment for H in coarse to fine strategy of ray tracing/dsm interception
   coarse_tolerance: 3           # when difference in current and DSM-given height is < this, move to fine strategy
-  fine_tolerance: 1           # when < this, stop (we are close enough)
+  fine_tolerance: 0.5         # when < this, stop (we are close enough)
 
 gis2img:
   boundary: 5                   # median of boundary x boundary pixels from DSM is taken

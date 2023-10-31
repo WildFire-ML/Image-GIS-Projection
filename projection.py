@@ -248,7 +248,8 @@ def img2gis(img_path:str,
         if diff < 0:
             # error if we overshot the DSM (and landed up inside) - need to retry 
             print(f"Computed H => {computed_del_H}, Actual => {curr_H}")
-            exit("Error! Too coarse. Reduce height increment del_H or increase tolerance, and try again")     
+            break
+            # exit("Error! Too coarse. Reduce height increment del_H or increase tolerance, and try again")     
         elif diff < fine_tolerance:
             # successful intercept
             point_depth = curr_Zc * d_dash_m[0] / focal 

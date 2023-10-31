@@ -3,7 +3,7 @@ import os
 
 if __name__ == "__main__":
     
-    with open("DJI_20220712133408_0902.txt", 'r') as File:
+    with open("DJI_20220712132737_0436.txt", 'r') as File:
         annots = File.readlines()
     
     converted_annots = []
@@ -11,7 +11,7 @@ if __name__ == "__main__":
     for i in range(len(annots)):
         annots[i] = annots[i].split(" ")[1:]
         temp = annots[i]
-        annots[i] = [float(i) * 2000 for i in temp]
+        annots[i] = [float(j) * 2000 for j in temp]
         
     count = 0
     for i in annots:
@@ -23,7 +23,7 @@ if __name__ == "__main__":
         converted_annots.append([count,str([(l,u),(r,u),(r,d),(l,d)])])
         count += 1
     
-    with open("DJI_20220712133408_0902.csv", 'w', newline = '') as CSVfile:
+    with open("test.csv", 'w', newline = '') as CSVfile:
         wr = csv.writer(CSVfile)
         wr.writerow(['id','geometry'])
         wr.writerows(converted_annots)
